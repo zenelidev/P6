@@ -16,7 +16,7 @@ const Home = () => {
                 <LocationCard
                 key={index} // Use a unique key for each card
                 title={item.title}
-                imageSrc={item.cover} //TODO
+              //TODO
                 />
             ))}
 
