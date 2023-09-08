@@ -1,20 +1,20 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import '../styles/output.css';
+// import React from 'react';
+// import { Link } from 'react-router-dom';
+// import '../styles/output.css';
 
-function LocationCard(props) {
-  const { title, id } = props;
+// function LocationCard(props) {
+//   const { title, id } = props;
   
-  const cardImgStyle = {
-    backgroundImage: `url(${imageSrc})`,
+//   const cardImgStyle = {
+//     backgroundImage: `url(${imageSrc})`,
 
-        };
+//         };
 
-  return (
-    <Link to={`/location/${id}`} className="location-card">
-        <div className="location-card-title">{title}</div>
-    </Link>
-  );
-}
+//   return (
+//     <Link to={`/location/${id}`} className="location-card">
+//         <div className="location-card-title">{title}</div>
+//     </Link>
+//   );
+// }
 
-export default LocationCard;
+// export default LocationCard;
