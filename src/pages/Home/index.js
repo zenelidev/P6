@@ -1,7 +1,7 @@
 import '../../styles/output.css';
 import React from 'react';
 import LocationCard from '../../components/LocationCard';
-import Banner from '../../components/banner';
+import Banner from '../../components/Banner';
 import data from '../../data/bdd.json'
 
 const Home = () => {

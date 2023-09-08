@@ -1,7 +1,7 @@
 import "../../styles/output.css";
 import React from "react";
-import Banner from "../../components/banner";
-import Accordion from "../../components/accordion";
+import Banner from "../../components/Banner";
+import Accordion from "../../components/Accordion";
 
 const About = () => {
 	const bannerImageSrc = process.env.PUBLIC_URL + "/mountains.png";
