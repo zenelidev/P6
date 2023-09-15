@@ -9,7 +9,7 @@ const About = () => {
 		<div className='container'>
 			<Banner imageSrc={bannerImageSrc} />
             
-            <div className="mt-2">
+            <div className="about-tags-container">
 			<Accordion
 				title='Fiabilité'
 				description='Les annonces postées sur Kasa garantissent une fiabilité totale. Les photos sont conformes aux logements, et toutes les informations sont régulièrement vérifiées par nos équipes.'

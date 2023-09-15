@@ -9,8 +9,8 @@ const Header = () => {
         </a>
       </div>
       <div className="header-links-div">
-        <a href="#" className="header-link">Accueil</a>
-        <a href="#" className="header-link">À Propos</a>
+        <a href="/" className="header-link">Accueil</a>
+        <a href="about" className="header-link">À Propos</a>
       </div>
     </header>
   );
