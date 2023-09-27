@@ -1,0 +1,19 @@
+.banner-text{
+    text-align: center;
+    color: white;
+  }
+
+@media (max-width: 768px) {
+
+    .banner-img{
+    height: 134px !important;
+    justify-content: unset !important;
+    }
+
+    .banner-text {
+        text-align: initial;
+        font-size: 25px;
+        width: 67%;
+        padding-left: 10px;
+    }
+}

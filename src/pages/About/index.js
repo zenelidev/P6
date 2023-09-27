@@ -1,4 +1,3 @@
-import "../../styles/output.css";
 import React from "react";
 import Banner from "../../components/Banner";
 import Accordion from "../../components/Accordion";

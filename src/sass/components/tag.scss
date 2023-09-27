@@ -1,0 +1,14 @@
+.location-tag{
+    border-radius: 15px;
+    background-color: #FF6060;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 115px;
+    padding: 4px;
+
+    .location-tag-title{
+      color: white;
+    }
+
+  }

@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import '../styles/output.css';
 
 function Accordion(props) {
   const [isOpen, setIsOpen] = useState(false);

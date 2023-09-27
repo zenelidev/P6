@@ -1,0 +1,17 @@
+.about-tags-container{
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-top: 2rem;
+  }
+
+  @media (max-width: 768px) {
+    
+  .about-tags-container {
+    margin-left: unset;
+    margin-right: unset;
+  
+        & .accordion {
+        margin-bottom: 1.5rem;
+       }
+    }
+  }

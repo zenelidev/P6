@@ -1,0 +1,40 @@
+
+.error-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    min-height: 74vh;
+  
+    .error-title{
+      font-size: 10rem;
+      color: #FF6060;
+      margin: 0;
+      font-weight: 600;
+    }
+  
+    .error-description, .error-return-link{
+      color: #FF6060;
+    }
+  
+    .error-return-link{
+      font-size: small;
+    }
+  
+  }
+
+@media (max-width: 768px) {
+
+.error-description{
+    text-align: center;
+  }
+  
+  .error-container{
+    margin-left: 2rem;
+    margin-right: 2rem;
+  
+    .error-title{
+      font-size: 7rem;
+    }
+  }  
+}

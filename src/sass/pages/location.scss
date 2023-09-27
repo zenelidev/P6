@@ -1,0 +1,111 @@
+.location-tags{
+    display: flex;
+    width: 100%;
+    gap: 10px;
+  }
+
+  .location-tag{
+    border-radius: 15px;
+    background-color: #FF6060;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 115px;
+    padding: 4px;
+
+    .location-tag-title{
+      color: white;
+    }
+
+  }
+
+  
+.location-details{
+
+    h2, h3, p {
+      color: #FF6060;
+    }
+  }
+
+  
+.location-container-div{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+  }
+  
+  .location-host-name, .location-host-img{
+    display: inline-flex;
+  }
+  
+  .location-host-img{
+    border-radius: 50%;
+    height: 5rem;
+  }
+  .location-host-name{
+    text-align: end;
+    width: 50%;
+  }
+  .location-div-right-host{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .location-div-right{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around ;
+  }
+  
+  .location-accordions {
+    display: flex;
+    justify-content:space-between ;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+  
+    & .accordion {
+      width: 45%;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .location-container-div{
+        flex-wrap: wrap;
+      }
+      
+      .location-div-right{
+        flex-direction: row-reverse;
+        align-items: center;
+        width: 100%;
+        justify-content: space-between;
+        margin-top: 1rem;
+      }
+      
+      .location-div-right-host{
+        justify-content: space-evenly;
+      }
+      
+      
+      .location-tags{
+        flex-wrap: wrap;
+      }
+      
+      .location-accordions{
+        flex-direction: column;
+        
+        
+        & .accordion {
+          width: 100%;
+          margin-bottom: 1.5rem;
+      
+        }
+      }
+      
+      .location-host-img {
+        height: 3rem;
+      }
+      
+      .locations-details h2{
+        margin-bottom: 0;
+      }
+  }

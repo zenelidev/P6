@@ -1,0 +1,22 @@
+
+.home-cards-container{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 25px;
+    justify-content: space-between;
+    margin-top: 1rem;
+    padding: 2rem;
+    background-color: #f6f6f6;
+    border-radius: 15px;
+    margin-bottom: 2rem;
+  }
+    
+  @media (max-width: 768px) {
+  .home-cards-container{
+    background-color: transparent;
+    padding: 0;
+    justify-content: center;
+    background-color: transparent;
+
+  }
+}

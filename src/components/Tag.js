@@ -1,5 +1,4 @@
 import React from 'react';
-import '../styles/output.css';
 
 function tag(props) {
   const { title } = props;

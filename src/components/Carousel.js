@@ -11,9 +11,11 @@ const Carousel = ({ images }) => {
     setCurrentIndex((prevIndex) => (prevIndex === images.length - 1 ? 0 : prevIndex + 1));
   };
 
+  const totalSlides = images.length;
+
   useEffect(() => {
     // Calculate the translation value based on the currentIndex
-    const translateValue = -currentIndex * 100; // Assuming each slide takes up 100% width
+    const translateValue = -currentIndex * 101; // Assuming each slide takes up 100% width
 
     // Apply the transform property to move the slides
     document.querySelector('.carousel-content').style.transform = `translateX(${translateValue}%)`;
@@ -43,6 +45,10 @@ const Carousel = ({ images }) => {
           &gt;
         </button>
       )}
+
+      <div className="carousel-pagination">
+        <span>{currentIndex + 1}</span> / {totalSlides}
+      </div>
     </div>
   );
 };

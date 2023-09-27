@@ -1,0 +1,17 @@
+  .rating-stars{
+    display: flex;
+    justify-content: flex-end;
+
+    .stars{
+        font-size:21px;
+        margin-right:4px;
+      }
+  }
+
+  .gray{
+    color: #E3E3E3;
+  }
+  
+  .orange{
+    color: #FF6060;
+  }

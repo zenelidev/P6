@@ -1,0 +1,14 @@
+.layout-content{
+    margin-left: 4rem;
+    margin-right:4rem;
+    min-height: 76vh;
+  }
+
+  @media (max-width: 768px) {
+    .layout-content{
+        margin-left: 1rem;
+        margin-right: 1rem;
+      }
+  }
+
+  

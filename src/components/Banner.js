@@ -1,7 +1,4 @@
-import '../styles/output.css';
 import React from 'react';
-
-
 
 function Banner(props) {
   const { title, imageSrc } = props;
@@ -20,7 +17,7 @@ function Banner(props) {
 
   return (
     <div className='banner-div'>
-      <div className='banner-img' style={bannerImgStyle}>
+      <div className='banner-img' style={bannerImgStyle} alt="">
         <h1 className='banner-text'>{title}</h1>
       </div>
     </div>

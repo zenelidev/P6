@@ -14,7 +14,7 @@ export default function Router() {
         <Route path="/error/" element={<Error />} />
         <Route path="*" element={<Error />} />
         <Route path="/location/:id" element={<Location />} />
-        <Route path="about" element={<About />} />
+        <Route path="/about" element={<About />} />
       </Route>
     </Routes>
   );
